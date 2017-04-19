@@ -189,7 +189,7 @@ for i in range(num_players):
         if idx_string == '':
             idx_int_lst = []
             break
-        idx_str_lst = idx_string.split(' ')
+        idx_str_lst = idx_string.split()
         if len(idx_str_lst) > 5 or len(idx_str_lst) != len(set(idx_str_lst)):
             print('Invalid input.  Please try again.')
             continue
